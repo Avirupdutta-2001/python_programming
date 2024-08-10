@@ -1,10 +1,10 @@
 import os
 print("*****Welcome to The Silent Auction Program*****")
-def find_winner(bidder_details):  #{'Ram':10000,'Shyam':20000}
+def find_winner(bidder_details):  
     highest_bid=0
     winner=""
     for bidder in bidder_details: #'Ram'
-        bidding_price=bidder_details[bidder]    #10000
+        bidding_price=bidder_details[bidder] 
         if bidding_price>highest_bid:
             highest_bid=bidding_price
             winner=bidder
